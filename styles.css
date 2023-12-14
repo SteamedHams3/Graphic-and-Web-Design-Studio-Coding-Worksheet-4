@@ -1,0 +1,152 @@
+body{
+    background-color: #F2F2F2;
+}
+
+/* header sytles */
+
+header {
+    background-color: pink;
+    padding: 10px 0px 10px 0px;
+}
+
+
+/* section one flex grow and shrink */
+
+.section-one {
+    background-color: blueviolet;
+    }
+
+.flexgrow-container {
+    display: flex;
+}
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 0px 3px;
+    border: 1px solid limegreen;
+    background-color: aliceblue;
+}
+
+.box1 {
+    background-color: skyblue;
+    
+    height: 200px;
+    flex: 1 1 auto;
+}
+
+.box2 {
+
+    background-color: lightgreen;
+    
+    height: 200px;
+    flex: 1 1 auto;
+}
+
+.box3 {
+
+    background-color: darkmagenta;
+    
+    height: 200px;
+    flex: 1 1 auto;
+
+}
+
+/* section 2 center item */
+
+.section-two {
+    background-color: #BF0426;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* section 3 youtube video */
+
+.section-three {
+    background-color: #D95A11;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+figcaption {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+iframe { 
+    padding: 5px;
+    
+}
+
+
+/* section 4 embed audio */
+
+.section-four {
+    background-color: #BF0426;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* section 5 media items */
+
+.section-five {
+    background-color: #D95A11;
+}
+
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.push {
+    margin-left: auto;
+}
+
+button{
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 10px;
+    margin: 2px;
+    transition-duration: .4s;
+}
+
+.media-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
+}
+
+.media-container .mediacontent {
+    flex: 1;
+    padding: 10px;
+}
+
+.mediacontent {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    font-size: 20px;
+}
